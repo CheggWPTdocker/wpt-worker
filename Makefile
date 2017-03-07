@@ -1,5 +1,5 @@
-NAME = cheggwpt/wpt-backend
-VERSION = 1.0.4
+NAME = cheggwpt/wpt-worker
+VERSION = 1.0.0
 
 .PHONY: all build test tag_latest release ssh
 
@@ -12,7 +12,7 @@ tag_latest:
 	docker tag $(NAME):$(VERSION) $(NAME):latest
 
 run:
-	docker run -p 80:80 --name wpt-backend -i -t $(NAME):$(VERSION)
+	docker run -p 80:80 --name wpt-worker -i -t $(NAME):$(VERSION)
 
 release: tag_latest
 	@if ! docker images $(NAME) | awk '{ print $$2 }' | grep -q -F $(VERSION); then echo "$(NAME) version $(VERSION) is not yet built. Please run 'make build'"; false; fi
