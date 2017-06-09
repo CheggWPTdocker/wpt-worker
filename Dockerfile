@@ -1,4 +1,4 @@
-FROM cheggwpt/php7-office:1.0.0
+FROM cheggwpt/php7-office:1.1.6
 MAINTAINER jgilley@chegg.com
 
 # Statsd Liberato ENVs
