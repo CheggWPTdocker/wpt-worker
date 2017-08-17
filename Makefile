@@ -1,5 +1,5 @@
 NAME = cheggwpt/wpt-worker
-VERSION = 1.1.6
+VERSION = 1.1.7
 
 .PHONY: all build test tag_latest release ssh
 
