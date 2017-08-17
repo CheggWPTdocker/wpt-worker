@@ -3,7 +3,7 @@ MAINTAINER jgilley@chegg.com
 
 # Statsd Liberato ENVs
 ENV librato_version 2.0.4
-ENV nodejs_version 6.9.5-r0
+ENV nodejs_version 6.9.5-r1
 ENV statsd_version master
 
 # Tideways ENVs
