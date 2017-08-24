@@ -2,7 +2,7 @@ FROM cheggwpt/php7-office:1.1.6
 MAINTAINER jgilley@chegg.com
 
 # Statsd Liberato ENVs
-ENV librato_version 2.0.4
+ENV librato_version 2.0.14
 ENV nodejs_version 6.9.5-r1
 ENV statsd_version master
 
