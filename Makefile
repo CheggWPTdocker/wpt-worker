@@ -3,7 +3,7 @@
 ORG = cheggwpt
 NAME = wpt-worker
 IMAGE = $(ORG)/$(NAME)
-VERSION = 2.0.0
+VERSION = 2.0.1
 PORT_INTERNAL = 80
 PORT_EXTERNAL = 8090
 
